@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+[SerializeField]
 public class NamingAndLevel : MonoBehaviour
 {
 	public string targetName = "Monster Name";

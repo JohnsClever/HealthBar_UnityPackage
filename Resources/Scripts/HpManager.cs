@@ -9,8 +9,9 @@ using UnityEngine.UI;
 
 public class HpManager : MonoBehaviour
 {
+	Camera main_cam;
 	[Header("Setting")]
-	public Camera main_cam;
+	public string cameraName;
 	[Tooltip("This will reduce performance. (Bad performance)")]
 	public bool isAutomatic;
 	[Header("Health Point Definition Components")]
@@ -26,8 +27,10 @@ public class HpManager : MonoBehaviour
 	{
 		if (main_cam == null)
 		{
-			Debug.LogWarning("\"main_cam\" variable has not been assigned.");
-			main_cam = Camera.main;
+			if (cameraName == null)
+				main_cam = Camera.main;
+			else
+				main_cam = GameObject.Find(cameraName).GetComponent<Camera>();
 		}
 		else
 		{
