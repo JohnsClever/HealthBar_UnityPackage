@@ -1,4 +1,4 @@
-This package was made by Eakrawi Chaisuriya 6/9/2020 V1.3
+This package was made by Eakrawi Chaisuriya 6/9/2020 V2.0
 C# Unity2020.1.3f1
 
 	*------How to use?------*
@@ -8,12 +8,13 @@ C# Unity2020.1.3f1
 	Scale it down to matches your screen or level.
 
 	2. In HpManagerScript(inside the prefabs)
-	Assign both your main Camera, Max Hp, and Hp
+	Assign both your CameraName, Max Hp, and Hp
 	*Hp is current healthpoint. You can adjust the colorRamp
 	of your health bar when it reaches specific value. 
 
 	3. Also, tweak your name and monster level in
-	NamingAndLevelScript. That is all for now.
+	NamingAndLevelScript and Click Update Name and Level Button.
+	That is all for now.
 
 	*------Free?-------*
 	Congratulation guys, it's free and open source.
