@@ -1,0 +1,24 @@
+This package was made by Eakrawi Chaisuriya 6/9/2020 V1.3
+C# Unity2020.1.3f1
+
+	*------How to use?------*
+	1. Look inside Resources/Prefabs/HealthBarPrefabs 
+	That is what you need. After that, put it into the
+	child of any gameobject(meant to be monster or player)
+	Scale it down to matches your screen or level.
+
+	2. In HpManagerScript(inside the prefabs)
+	Assign both your main Camera, Max Hp, and Hp
+	*Hp is current healthpoint. You can adjust the colorRamp
+	of your health bar when it reaches specific value. 
+
+	3. Also, tweak your name and monster level in
+	NamingAndLevelScript. That is all for now.
+
+	*------Free?-------*
+	Congratulation guys, it's free and open source.
+
+	*------Credit------*
+	Eakrawi Chaisuriya SPU
+
+	PS. I hope my comments will help you guys!!!
